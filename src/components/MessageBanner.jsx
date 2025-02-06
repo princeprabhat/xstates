@@ -4,7 +4,7 @@ const MessageBanner = ({ country, state, city }) => {
   return (
     <>
       {country && state && city && (
-        <div style={{ fontSize: "18px" }}>
+        <div style={{ fontSize: "18px", fontWeight: "900" }}>
           You selected{" "}
           <span style={{ fontWeight: "900", fontSize: "25px" }}>{country}</span>
           ,{" "}
